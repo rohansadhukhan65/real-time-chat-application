@@ -1,0 +1,108 @@
+* {
+     /* border: 2px solid red; */
+}
+
+/* Normal body elements styling ..... */
+nav {
+     background-color: orangered;
+     border-radius: 15px;
+     padding: 10px;
+}
+
+.logo {
+     display: block;
+     margin: auto;
+     height: 50px;
+     width: 50px;
+}
+
+.container {
+     padding: 1rem;
+     border-radius: 15px;
+     background-color: gainsboro;
+     margin: 12px 1px;
+     height: 60vh;
+     overflow-y: scroll;
+     overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+     width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+     background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+     background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+     background: #555;
+}
+
+
+/* messege element styling ..... */
+.messege {
+     display: block;
+     width: 44%;
+     font-size: 23px;
+     border-radius: 15px;
+     padding: 10px;
+     margin: 30px 0px;
+}
+
+.left {
+     margin-right: auto;
+     background-color: dodgerblue;
+     color: white;
+}
+
+.right {
+     margin-left: auto;
+     background-color: rgb(148, 215, 115);
+     color: whitesmoke;
+}
+
+/* messege sending form styling ..... */
+.send-container {
+     display: block;
+     justify-content: center;
+     margin-top: 15px;
+     background-color:dodgerblue;
+     padding: 5px;
+     border-radius: 15px;
+}
+
+.send-container>form {
+     margin: auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+input[type="text"] {
+     width: 80%;
+     height: 42px;
+     margin: 2px;
+     border-radius: 5px;
+     background-color: #ffffff;
+     border: none;
+     color: rgb(0, 0, 0);
+     font-size: 23px;
+}
+
+body>div.send-container>form>button{
+     width: 19%;
+     margin: 2px;
+     border-radius: 5px;
+     background-color: #03fb0392;
+     color: #fff;
+     font-size: 23px;
+     border: 1px solid whitesmoke;
+}
